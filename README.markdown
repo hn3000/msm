@@ -1,7 +1,9 @@
 # Minecraft Server Manager [![Build Status][status-img]][status] [![Donate to MSM][donate-img]][donate]
 
+<!--
 [status-img]: https://api.travis-ci.org/msmhq/msm.svg?branch=master
 [status]: http://travis-ci.org/msmhq/msm
+-->
 [donate-img]: https://www.paypalobjects.com/en_GB/i/btn/btn_donate_SM.gif
 [donate]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Z7XQDNF7U5GLL
 
@@ -11,11 +13,25 @@ A single init script which makes running multiple Minecraft/Bukkit servers easie
 
 Install MSM on a **debian box**:
 
-    wget -q http://git.io/Sxpr9g -O /tmp/msm && bash /tmp/msm
+	wget -q https://raw.githubusercontent.com/hn3000/msm/master/installers/debian.sh -O /tmp/install-msm.sh
+	# review /tmp/install-msm.sh
+	( . /tmp/install-msm.sh )
+
+<!--    wget -q http://git.io/Sxpr9g -O /tmp/msm && bash /tmp/msm -->
 
 Or install MSM under **RedHat**:
 
-	wget -q http://git.io/lu0ULA -O /tmp/msm && bash /tmp/msm
+	wget -q https://raw.githubusercontent.com/hn3000/msm/master/installers/redhat.sh -O /tmp/install-msm.sh
+	# review /tmp/install-msm.sh
+	( . /tmp/install-msm.sh )
+
+Or install MSM under **Arch**:
+
+	wget -q https://raw.githubusercontent.com/hn3000/msm/master/installers/arch.sh -O /tmp/install-msm.sh
+	# review /tmp/install-msm.sh
+	( . /tmp/install-msm.sh )
+
+<!--	wget -q http://git.io/lu0ULA -O /tmp/msm && bash /tmp/msm -->
 
 Or [suggest a new platform][issues].
 
