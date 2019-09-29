@@ -1,4 +1,4 @@
-BASE_URL="https://raw.githubusercontent.com/msmhq/msm/master/installers/"
+BASE_URL="https://raw.githubusercontent.com/hn3000/msm/master/installers/"
 
 function check_os() {
     if [[ -f /etc/debian_version ]]; then

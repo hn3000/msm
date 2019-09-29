@@ -1,6 +1,6 @@
 #!/bin/bash
 
-UPDATE_URL="https://raw.githubusercontent.com/hdon/msm/master"
+UPDATE_URL="https://raw.githubusercontent.com/hn3000/msm/master"
 wget -q ${UPDATE_URL}/installers/common.sh -O /tmp/msmcommon.sh
 source /tmp/msmcommon.sh && rm -f /tmp/msmcommon.sh
 
